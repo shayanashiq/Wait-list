@@ -27,10 +27,10 @@ const onHandle = async () => {
 
   return (
     <div>
-        <div className="md:min-w-[1000px] mx-auto mt-16 ">
+        <div className="md:min-w-[1000px] mx-auto mt-12 ">
           <div className="w-[800px] h-[550px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
-          <div className=" md:grid md:grid-cols-2 md:gap-28 absolute top-20 md:top-10">
+          <div className=" md:grid md:grid-cols-2 md:gap-28 absolute top-20 md:top-6">
               <div className="bg-transparent px-3 md:p-20 h-[700px] mt-20">
                 <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
