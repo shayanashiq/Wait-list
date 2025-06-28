@@ -30,7 +30,7 @@ export async function POST(request) {
       headers: { 'Content-Type': 'application/json' },
     });
   } catch (err) {
-    return new Response(JSON.stringify({ error: 'Database error' }), {
+    return new Response(JSON.stringify({ error: 'Database error',err }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
     });
@@ -55,7 +55,7 @@ export async function GET() {
 
     return NextResponse.json(formattedEmails);
   } catch (err) {
-    return NextResponse.json({ error: 'Failed to fetch emails' });
+    return NextResponse.json({ error: 'Failed to fetch emails',err });
   }
 }
 
