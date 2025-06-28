@@ -27,7 +27,7 @@ const onHandle = async () => {
 
   return (
     <div>
-        <div className="md:w-[1000px] mx-auto mt-20 ">
+        <div className="md:min-w-[1000px] mx-auto mt-20 ">
           <div className="w-[800px] h-[600px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
           <div className=" md:grid md:grid-cols-2 md:gap-28 absolute top-20 md:top-10">
@@ -46,11 +46,11 @@ const onHandle = async () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Email address.." 
-                    className="px-2 py-1 w-[200px] "
+                    className="px-2 py-1 w-[250px] "
                   />
                   <button 
                     className="bg-blue-600 hover:bg-blue-800 cursor-pointer text-white 
-                    font-semibold p-1 md:px-1 md:py-1"
+                    font-semibold p-1 md:px-1 md:py-1 text-sm"
                     onClick={onHandle}
                   >
                       Sign Me Up!
