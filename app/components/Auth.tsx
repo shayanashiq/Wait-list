@@ -27,15 +27,15 @@ const onHandle = async () => {
 
   return (
     <div>
-        <div className="md:w-[1400px] mx-auto mt-20 ">
+        <div className="md:w-[1000px] mx-auto mt-20 ">
           <div className="w-[800px] h-[600px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
           <div className=" md:grid md:grid-cols-2 md:gap-20 absolute top-20 md:top-10">
               <div className="bg-transparent px-3 md:p-20 h-[700px] mt-20">
-                <h1 className="text-2xl md:text-4xl font-bold">
+                <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
                 </h1>
-                <p className=" text-xl font-semibold mt-5 md:text-3xl">
+                <p className=" text-xl font-semibold mt-5 md:text-2xl">
                   spend less time editing resumes, more on chasing resumes
                 </p>
                 <p className="mt-5">
