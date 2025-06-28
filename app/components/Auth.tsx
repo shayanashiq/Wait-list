@@ -28,7 +28,7 @@ const onHandle = async () => {
   return (
     <div>
         <div className="md:w-[1400px] mx-auto mt-20 ">
-          <div className="w-[1000px] h-[600px] bg-gray-100 md:bg-gray-200 float-end">
+          <div className="w-[800px] h-[600px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
           <div className=" md:grid md:grid-cols-2 md:gap-20 absolute top-20 md:top-10">
               <div className="bg-transparent px-3 md:p-20 h-[700px] mt-20">
