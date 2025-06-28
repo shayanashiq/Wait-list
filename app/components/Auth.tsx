@@ -30,15 +30,15 @@ const onHandle = async () => {
         <div className="md:w-[1000px] mx-auto mt-20 ">
           <div className="w-[800px] h-[600px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
-          <div className=" md:grid md:grid-cols-2 md:gap-20 absolute top-20 md:top-10">
+          <div className=" md:grid md:grid-cols-2 md:gap-32 absolute top-20 md:top-10">
               <div className="bg-transparent px-3 md:p-20 h-[700px] mt-20">
                 <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
                 </h1>
-                <p className=" text-xl font-semibold mt-5 md:text-2xl">
+                <p className=" text-xl font-semibold mt-5 md:text-xl">
                   spend less time editing resumes, more on chasing resumes
                 </p>
-                <p className="mt-5">
+                <p className="mt-5 text-sm">
                   Coming soon, join waitlist to get beta access
                 </p>
                 <div className="mt-8 flex gap-2 shadow-2xl  bg-white w-[400px] py-2 px-2 md:px-0">
@@ -69,7 +69,7 @@ const onHandle = async () => {
                 <Image
                 src={mobile}
                 alt="Email"
-                className="md:w-[500px] md:h-[600px] shadow-2xl" 
+                className="md:w-[500px] md:h-[400px] shadow-2xl" 
                 />
               </div>
           </div>
