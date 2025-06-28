@@ -30,7 +30,7 @@ const onHandle = async () => {
         <div className="md:w-[1000px] mx-auto mt-20 ">
           <div className="w-[800px] h-[600px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
-          <div className=" md:grid md:grid-cols-2 md:gap-32 absolute top-20 md:top-10">
+          <div className=" md:grid md:grid-cols-2 md:gap-28 absolute top-20 md:top-10">
               <div className="bg-transparent px-3 md:p-20 h-[700px] mt-20">
                 <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
@@ -69,7 +69,7 @@ const onHandle = async () => {
                 <Image
                 src={mobile}
                 alt="Email"
-                className="md:w-[500px] md:h-[400px] shadow-2xl" 
+                className="md:w-[450px] md:h-[500px] shadow-2xl" 
                 />
               </div>
           </div>
