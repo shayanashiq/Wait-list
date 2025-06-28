@@ -41,16 +41,16 @@ const onHandle = async () => {
                 <p className="mt-5 text-sm">
                   Coming soon, join waitlist to get beta access
                 </p>
-                <div className="mt-8 flex gap-2 shadow-2xl  bg-white w-[400px] py-2 px-2 md:px-0">
+                <div className="mt-8 flex gap-2 shadow-2xl  bg-white w-[350px] py-2 px-2 md:px-0">
                   <input 
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Email address.." 
-                    className="px-3 py-2 w-[275px] md:text-xl"
+                    className="px-2 py-1 w-[200px] "
                   />
                   <button 
                     className="bg-blue-600 hover:bg-blue-800 cursor-pointer text-white 
-                    font-semibold p-1 md:px-2 md:py-2"
+                    font-semibold p-1 md:px-1 md:py-1"
                     onClick={onHandle}
                   >
                       Sign Me Up!
