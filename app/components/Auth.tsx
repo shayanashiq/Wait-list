@@ -31,17 +31,17 @@ const onHandle = async () => {
           <div className="w-[800px] h-[550px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
           <div className=" md:grid md:grid-cols-2 md:gap-24 absolute top-20 md:top-6 px-30">
-              <div className="bg-transparent w-[710px] px-3 md:px-32 md:py-20 h-[700px] mt-20 items-center">
+              <div className="bg-transparent w-[450px] px-3 md:px-32 md:py-20 h-[700px] mt-20 items-center">
                 <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
                 </h1>
-                <p className=" text-xl font-semibold mt-5 md:text-xl">
+                <p className="text-xl font-semibold mt-5 md:text-xl w-[300px]">
                   spend less time editing resumes, more on chasing resumes
                 </p>
                 <p className="mt-5 text-sm">
                   Coming soon, join waitlist to get beta access
                 </p>
-                <div className="mt-8 flex gap-2 md:gap-1 shadow-2xl  bg-red-300 w-[350px] md:w-[370px] py-1 md:p-2 ">
+                <div className="mt-8 flex gap-2 md:gap-1 shadow-2xl  bg-red-300 w-[350px] md:w-[370px] md:px-3 py-1 md:p-2 ">
                   <input 
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
