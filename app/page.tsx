@@ -1,13 +1,13 @@
-//import AdminpanalEmail from "./Adminpanal-Emails/page";
-import Register from "./register/page";
+import AdminpanalEmail from "./Adminpanal-Emails/page";
+//import Register from "./register/page";
 
 export default function Home() {
     
   return (
     <div>
-      <Register/>
+      {/*<Register>*/}
       
-      {/*<AdminpanalEmail/>*/}
+      <AdminpanalEmail/>
     </div>
   );
 }
