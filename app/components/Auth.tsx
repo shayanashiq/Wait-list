@@ -13,11 +13,16 @@ const onHandle = async () => {
     alert('Please enter your email.');
     return;
   }
-  
-    axios.post('https://your-vercel-url.vercel.app/api/save-email', { email })
-  .then(res => console.log(res.data))
-  .catch(err => console.error("API Error:", err));
-
+  try {
+    const res = await axios.post('https://waitinglist-git-master-shayan1.vercel.app/app/api', {
+      email,
+    });
+      console.log("This is data",res.data); // success response
+  } catch (err) {
+    console.error(err);
+    alert('Error saving email');
+  }
+};
 
   return (
     <div>
