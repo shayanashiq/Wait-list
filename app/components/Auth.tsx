@@ -35,13 +35,13 @@ const onHandle = async () => {
                 <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
                 </h1>
-                <p className="text-xl font-semibold mt-5 md:text-xl w-[350px]">
+                <p className="text-xl font-semibold mt-5 md:text-xl w-[360px]">
                   spend less time editing resumes, more on chasing resumes
                 </p>
                 <p className="mt-5 text-sm">
                   Coming soon, join waitlist to get beta access
                 </p>
-                <div className="mt-8 flex gap-2 md:gap-1 shadow-2xl  bg-red-300 w-[350px] md:w-[370px] md:px-3 py-1 md:p-2 ">
+                <div className="mt-8 md:mx-auto flex gap-2 md:gap-1 shadow-2xl  bg-red-300 w-[350px] md:w-[370px] md:px-3 py-1 md:p-2 ">
                   <input 
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
