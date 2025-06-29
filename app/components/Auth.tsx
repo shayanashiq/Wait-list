@@ -2,7 +2,7 @@
 import Image from "next/image";
 import mobile from "@/public/Quality-img.png"
 import { useState } from "react"
-import axios from "axios"
+//import axios from "axios"
 
 export default function Auth() {
 
@@ -14,10 +14,15 @@ const onHandle = async () => {
     return;
   }
   try {
-    const res = await axios.post('https://waitinglist-git-master-shayan1.vercel.app/app/api', {
-      email,
-    });
-      console.log("This is data",res.data); // success response
+    const res = await fetch(' https://waitinglist-git-master-shayan1.vercel.app/app/api', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email }),
+  });
+
+  const data = await res.json();
+  console.log("API Response:", data);
+     // console.log("This is data",res.data); // success response
   } catch (err) {
     console.error(err);
     alert('Error saving email');
