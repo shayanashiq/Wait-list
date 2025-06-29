@@ -14,7 +14,7 @@ const onHandle = async () => {
     return;
   }
   try {
-    const res = await axios.post('http://localhost:3000/api', {
+    const res = await axios.post('http://app/api', {
       email,
     });
 
