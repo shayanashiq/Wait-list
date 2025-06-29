@@ -14,7 +14,7 @@ const onHandle = async () => {
     return;
   }
   try {
-    const res = await axios.post('http://app/api', {
+    const res = await axios.post('http://Waiting-list/app/api', {
       email,
     });
 
