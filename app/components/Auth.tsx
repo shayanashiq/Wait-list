@@ -30,8 +30,8 @@ const onHandle = async () => {
         <div className="md:min-w-[1000px] mx-auto mt-12 h-fit">
           <div className="w-[800px] h-[550px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
-          <div className=" md:grid md:grid-cols-2 md:gap-24 absolute top-20 md:top-6 px-30">
-              <div className="bg-transparent md:w-[450px] px-3 md:px-32 md:py-20 h-[700px] mt-20 items-center">
+          <div className=" md:grid md:grid-cols-2 md:gap-35 absolute top-20 md:top-6 px-30">
+              <div className="bg-transparent md:w-[650px] px-3 md:px-25 md:py-20 h-[700px] mt-20 items-center">
                 <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
                 </h1>
@@ -41,7 +41,7 @@ const onHandle = async () => {
                 <p className="mt-5 text-sm">
                   Coming soon, join waitlist to get beta access
                 </p>
-                <div className="mt-8 md:mx-auto flex gap-2 md:gap-1 shadow-2xl  bg-red-300 w-[350px] md:w-[370px] md:px-3 py-1 md:p-2 ">
+                <div className="mt-8 flex gap-2 md:gap-1 shadow-2xl  bg-red-300 w-[350px] md:w-[370px] md:px-3 py-1 md:p-2 ">
                   <input 
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
