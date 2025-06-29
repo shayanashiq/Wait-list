@@ -17,7 +17,8 @@ export default function Adminpanal() {
       axios.get("http://localhost:3000/api",)
       .then(response=>{setUsers(response.data)})
     }catch(err){
-        console.log(err)
+        console.log(err);
+        setUsers([]);
     }
     },[])
 
