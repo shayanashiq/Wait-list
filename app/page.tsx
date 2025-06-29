@@ -1,4 +1,4 @@
-//import AdminpanalEmail from "./Adminpanal-Emails/page";
+import AdminpanalEmail from "./Adminpanal-Emails/page";
 import Register from "./register/page";
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Register/>
       
-      {/*<AdminpanalEmail/>*/}
+    <AdminpanalEmail/>
     </div>
   );
 }
