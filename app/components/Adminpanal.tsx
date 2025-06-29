@@ -14,7 +14,7 @@ export default function Adminpanal() {
 
        useEffect(()=>{
     try{
-      axios.get("http://localhost:3000/api",)
+      axios.get("https://waitinglist-git-master-shayan1.vercel.app/app/api",)
       .then(response=>{setUsers(response.data)})
     }catch(err){
         console.log(err);
