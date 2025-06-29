@@ -35,7 +35,7 @@ const onHandle = async () => {
                 <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
                 </h1>
-                <p className="text-xl font-semibold mt-5 md:text-xl w-[300px]">
+                <p className="text-xl font-semibold mt-5 md:text-xl w-[350px]">
                   spend less time editing resumes, more on chasing resumes
                 </p>
                 <p className="mt-5 text-sm">
