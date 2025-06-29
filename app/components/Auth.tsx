@@ -41,7 +41,7 @@ const onHandle = async () => {
                 <p className="mt-5 text-sm">
                   Coming soon, join waitlist to get beta access
                 </p>
-                <div className="mt-8 flex gap-2 md:gap-1 shadow-2xl w-[350px] md:w-[370px] md:px-3 py-1 md:p-2 ">
+                <div className="mt-8 flex gap-2 md:gap-1 bg-white shadow-2xl w-[350px] md:w-[370px] md:px-3 py-1 md:p-2 ">
                   <input 
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
