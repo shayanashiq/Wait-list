@@ -31,7 +31,7 @@ const onHandle = async () => {
           <div className="w-[800px] h-[550px] bg-gray-100 md:bg-gray-200 float-end">
           </div>
           <div className=" md:grid md:grid-cols-2 md:gap-24 absolute top-20 md:top-6 px-30">
-              <div className="bg-transparent w-[450px] px-3 md:px-32 md:py-20 h-[700px] mt-20 items-center">
+              <div className="bg-transparent md:w-[450px] px-3 md:px-32 md:py-20 h-[700px] mt-20 items-center">
                 <h1 className="text-2xl md:text-3xl font-bold">
                   kikk.io
                 </h1>
