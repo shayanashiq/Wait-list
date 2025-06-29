@@ -17,7 +17,7 @@ const onHandle = async () => {
     const res = await axios.post('https://waitinglist-git-master-shayan1.vercel.app/app/api', {
       email,
     });
-      console.log(res.data); // success response
+      console.log("This is data",res.data); // success response
   } catch (err) {
     console.error(err);
     alert('Error saving email');
