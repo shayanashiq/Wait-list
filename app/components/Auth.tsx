@@ -14,10 +14,10 @@ const onHandle = async () => {
     return;
   }
   try {
-    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/save-email`, {
+    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/Saving-Email`, {
       email,
     });
-      console.log("This is data",res.data); // success response
+     console.log("This is data",res.data); // success response
   } catch (err) {
     console.error(err);
     alert('Error saving email');
