@@ -14,7 +14,7 @@ const onHandle = async () => {
     return;
   }
   try {
-    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api`, {
+    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/save-email`, {
       email,
     });
       console.log("This is data",res.data); // success response
