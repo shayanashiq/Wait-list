@@ -14,7 +14,9 @@ const onHandle = async () => {
     return;
   }
   try {
-    const res = await axios.post(`${process.env.NEXT_API_URL}/app/api`, email);
+    const res = await axios.post(`${process.env.NEXT_API_URL}/api`, {
+      email,
+    });
       console.log("This is data",res.data); // success response
   } catch (err) {
     console.error(err);
